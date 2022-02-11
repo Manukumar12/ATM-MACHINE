@@ -87,7 +87,7 @@ printf("हमारी एटीएम सेवाओं का उपयो�
 
 
 void eng()
-{ int rup=5000,pin,pin1=1515,p,choice;
+{ int rup=5000,pin,pin1=8765,p,choice;
 
 printf("\n WELCOME TO PIN GENERATION SERVICE\n Do you want to change the pin or continue with previous one\n1.>Regenerate the pin\n2.>Continue with previous one.\n ");
 scanf("%d",&choice);
@@ -186,7 +186,7 @@ break;
 
 }
 void hindi()
-{ int rup=5000, pin,pin1=1515,p,choice;
+{ int rup=5000, pin,pin1=8765,p,choice;
 printf("\nपिन जनरेशन सेवा में आपका स्वागत हे \nक्या आप पिन बदलना चाहते हैं या पिछले वाले के साथ जारी रखना चाहते हैं \n 1.>पिन को फिर से जनरेट करें \n2.>पिछले एक के साथ जारी रखें।\n ");
 scanf("%d",&choice);
 if(choice==1)
